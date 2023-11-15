@@ -1,6 +1,6 @@
 package com.example.animals;
 
-public class Mammal extends Animal {
+public abstract class Mammal extends Animal {
     private int maxWeightKorsun64068;
 
     public Mammal() {
@@ -26,16 +26,6 @@ public class Mammal extends Animal {
     public String toString() {
         return super.toString() + ", it is a Mammal up to " + maxWeightKorsun64068 + " kg";
     }
-    @Override
-    public void eatKorsun64068() {
-        System.out.println("Mammal " + getNameKorsun64068() + " eats");
-    }
-
-    @Override
-    public void getVoiceKorsun64068() {
-        System.out.println("Mammal " + getNameKorsun64068() + " gives voice");
-    }
-
     public int getMaxWeightKorsun64068() {
         return maxWeightKorsun64068;
     }

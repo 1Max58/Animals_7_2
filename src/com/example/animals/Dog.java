@@ -23,9 +23,20 @@ public class Dog extends Mammal {
         return super.toString() + ", it is a Dog of the " + breedKorsun64068 + " breed";
     }
 
-    public void bark() {
+    public void barkKorsun64068() {
         System.out.println("Dog " + getNameKorsun64068() + " barks");
     }
+
+    @Override
+    public void eatKorsun64068() {
+        System.out.println("Mammal " + getNameKorsun64068() + " eats meat");
+    }
+
+    @Override
+    public void getVoiceKorsun64068() {
+        barkKorsun64068();
+    }
+
     public String getBreedKorsun64068() {
         return breedKorsun64068;
     }
