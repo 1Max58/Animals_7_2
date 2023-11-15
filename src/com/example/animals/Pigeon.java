@@ -12,8 +12,9 @@ public class Pigeon extends Bird {
         speciesKorsun64068 = s;
     }
 
-    public Pigeon(String n, String f) {
-        super(n, f);
+    public Pigeon(String n, String s) {
+        super(n, "Gray");
+        speciesKorsun64068 = s;
     }
     public void flyKorsun64068() {
         System.out.println("Pigeon " + getNameKorsun64068() + " flies");
