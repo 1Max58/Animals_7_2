@@ -16,4 +16,8 @@ public class Blowfish extends Fish {
         super(n, false);
         blowfishSpeciesKorsun64068 = "Blowfish spp.";
     }
+
+    public void prick() {
+        System.out.println("Blowfish " + getNameKorsun64068() + " pricks");
+    }
 }

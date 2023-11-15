@@ -25,7 +25,7 @@ public class Fish extends Animal {
 
     @Override
     public void eatKorsun64068() {
-        System.out.println("Fish " + getNameKorsun64068() + " eats");
+        System.out.println("Fish " + getNameKorsun64068() + " eats worms");
     }
 
     @Override
@@ -33,7 +33,7 @@ public class Fish extends Animal {
         System.out.println("Fish " + getNameKorsun64068() + " gives no voice");
     }
 
-    public void swim() {
+    public void swimKorsun64068() {
         System.out.println("Fish " + getNameKorsun64068() + " swims");
     }
 
