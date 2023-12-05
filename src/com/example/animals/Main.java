@@ -37,5 +37,11 @@ public class Main {
         for (var animalKorsun64068 : animalsKorsun64068) {
             animalKorsun64068.moveKorsun64068();
         }
+
+        System.out.println();
+        System.out.println("Animal name:");
+        for (var animalKorsun64068 : animalsKorsun64068) {
+            AnimalName.nameKorsun64068(animalKorsun64068.getNameKorsun64068());
+        }
     }
 }
