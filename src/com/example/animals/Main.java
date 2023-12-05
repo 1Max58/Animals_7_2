@@ -14,10 +14,10 @@ public class Main {
             animalKorsun64068.eatKorsun64068();
             animalKorsun64068.getVoiceKorsun64068();
         }
-        dogKorsun64068.run();
+        dogKorsun64068.runKorsun64068();
         dogKorsun64068.barkKorsun64068();
         blowfishKorsun64068.swimKorsun64068();
-        blowfishKorsun64068.prick();
+        blowfishKorsun64068.prickKorsun64068();
         pigeonKorsun64068.flapWingsKorsun64068();
         pigeonKorsun64068.flyKorsun64068();
 
@@ -28,8 +28,14 @@ public class Main {
                 blowfishKorsun64068,
                 pigeonKorsun64068
         };
-        for (var behavior : animalBehaviorsKorsun64068) {
-            behavior.sleepKorsun64068();
+        for (var behaviorKorsun64068 : animalBehaviorsKorsun64068) {
+            behaviorKorsun64068.sleepKorsun64068();
+        }
+
+        System.out.println();
+        System.out.println("Animal moves:");
+        for (var animalKorsun64068 : animalsKorsun64068) {
+            animalKorsun64068.moveKorsun64068();
         }
     }
 }

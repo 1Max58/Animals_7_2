@@ -49,4 +49,12 @@ public class Dog extends Mammal implements AnimalBehavior {
     public void sleepKorsun64068() {
         System.out.println("Dog " + getNameKorsun64068() + " lays down and sleeps");
     }
+    @Override
+    public void runKorsun64068() {
+        System.out.println("Dog runs");
+    }
+    @Override
+    public void moveKorsun64068() {
+        runKorsun64068();
+    }
 }

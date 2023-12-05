@@ -1,6 +1,6 @@
 package com.example.animals;
 
-public abstract class Animal {
+public abstract class Animal implements AnimalMove {
     private String nameKorsun64068;
     private int ageKorsun64068;
     private float weightKorsun64068;

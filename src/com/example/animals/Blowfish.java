@@ -17,12 +17,16 @@ public class Blowfish extends Fish implements AnimalBehavior {
         blowfishSpeciesKorsun64068 = "Blowfish spp.";
     }
 
-    public void prick() {
+    public void prickKorsun64068() {
         System.out.println("Blowfish " + getNameKorsun64068() + " pricks");
     }
 
     @Override
     public void sleepKorsun64068() {
         System.out.println("Blowfish " + getNameKorsun64068() + " sinks to the bottom and sleeps");
+    }
+    @Override
+    public void moveKorsun64068() {
+        System.out.println("Blowfish sinks");
     }
 }

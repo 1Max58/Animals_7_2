@@ -17,7 +17,7 @@ public class Pigeon extends Bird implements AnimalBehavior {
         speciesKorsun64068 = s;
     }
     public void flyKorsun64068() {
-        System.out.println("Pigeon " + getNameKorsun64068() + " flies");
+        System.out.println("Pigeon flies");
     }
 
     @Override
@@ -36,5 +36,9 @@ public class Pigeon extends Bird implements AnimalBehavior {
     @Override
     public void sleepKorsun64068() {
         System.out.println("Pigeon " + getNameKorsun64068() + " sits on a branch and sleeps");
+    }
+    @Override
+    public void moveKorsun64068() {
+        flyKorsun64068();
     }
 }

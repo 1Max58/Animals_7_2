@@ -18,7 +18,7 @@ public abstract class Mammal extends Animal {
         maxWeightKorsun64068 = mw;
     }
 
-    public void run() {
+    public void runKorsun64068() {
         System.out.println("Mammal " + getNameKorsun64068() + " runs");
     }
 
