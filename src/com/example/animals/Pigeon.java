@@ -1,6 +1,6 @@
 package com.example.animals;
 
-public class Pigeon extends Bird {
+public class Pigeon extends Bird implements AnimalBehavior {
     private String speciesKorsun64068;
 
     public Pigeon() {
@@ -31,5 +31,10 @@ public class Pigeon extends Bird {
 
     public void setSpeciesKorsun64068(String speciesKorsun64068) {
         this.speciesKorsun64068 = speciesKorsun64068;
+    }
+
+    @Override
+    public void sleepKorsun64068() {
+        System.out.println("Pigeon " + getNameKorsun64068() + " sits on a branch and sleeps");
     }
 }

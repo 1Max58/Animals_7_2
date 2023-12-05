@@ -20,5 +20,16 @@ public class Main {
         blowfishKorsun64068.prick();
         pigeonKorsun64068.flapWingsKorsun64068();
         pigeonKorsun64068.flyKorsun64068();
+
+        System.out.println();
+        System.out.println("Animal behavior:");
+        AnimalBehavior[] animalBehaviorsKorsun64068 = new AnimalBehavior[] {
+                dogKorsun64068,
+                blowfishKorsun64068,
+                pigeonKorsun64068
+        };
+        for (var behavior : animalBehaviorsKorsun64068) {
+            behavior.sleepKorsun64068();
+        }
     }
 }

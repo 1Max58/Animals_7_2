@@ -1,6 +1,6 @@
 package com.example.animals;
 
-public class Dog extends Mammal {
+public class Dog extends Mammal implements AnimalBehavior {
     private String breedKorsun64068;
 
     public Dog() {
@@ -43,5 +43,10 @@ public class Dog extends Mammal {
 
     public void setBreedKorsun64068(String breedKorsun64068) {
         this.breedKorsun64068 = breedKorsun64068;
+    }
+
+    @Override
+    public void sleepKorsun64068() {
+        System.out.println("Dog " + getNameKorsun64068() + " lays down and sleeps");
     }
 }
